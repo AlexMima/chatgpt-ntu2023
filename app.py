@@ -2,7 +2,7 @@ import openai
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-openai.api_key = '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'
+openai.api_key = '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'
 @app.route('/', methods=['GET', 'POST'])
 
 def index():
